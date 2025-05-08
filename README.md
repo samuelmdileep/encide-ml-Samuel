@@ -1,10 +1,12 @@
-Cat vs Dog Image Classifier
+# 🐱🐶 Cat vs Dog Image Classifier
 
-A deep learning project built for the ENCIDE ML Challenge to classify images as either **cat** or **dog** using a Convolutional Neural Network (CNN).
+A deep learning project developed for the **ENCIDE ML Challenge** to classify images as either **cat** or **dog** using a Convolutional Neural Network (CNN).
 
-* Dataset
+---
 
-The dataset was sourced from Kaggle and includes:
+## 📂 Dataset
+
+The dataset was sourced from [Kaggle](https://www.kaggle.com/datasets/aleemaparakatta/cats-and-dogs-mini-dataset):
 
 - `cats_set`: 500 cat images
 - `dogs_set`: 500 dog images
@@ -33,11 +35,18 @@ dog.JPG,dog
    
 ## 📊 Model Performance
 
-The model was trained with early stopping and image augmentation. Accuracy curves for training and validation are plotted to visualize performance.
-![download](https://github.com/user-attachments/assets/b8a0ee50-d65a-4d9a-abdb-c06ba5d9f028)(graph)
+The model was trained with early stopping and image augmentation. 
 
-Final Training Accuracy: 86.26%
-Final Validation Accuracy: 72.40%
+**Final Metrics:**
+
+- ✅ **Training Accuracy**: 86.26%
+- ✅ **Validation Accuracy**: 72.40%
+
+📈 Accuracy Curves:
+
+![Accuracy Graph](https://github.com/user-attachments/assets/b8a0ee50-d65a-4d9a-abdb-c06ba5d9f028)
+
+---
 
 ## 🛠️ Tech Stack
 
@@ -47,11 +56,13 @@ Final Validation Accuracy: 72.40%
 
 ## 📁 Repo Structure
 
-- `cat_vs_dog_classifier.ipynb` – Complete Colab notebook
-- `submission.csv` – Final predictions
-- `README.md` – Project overview and instructions
+📦 Project Root
+├── cat_vs_dog_classifier.ipynb # Main notebook
+├── submission.csv # Final predictions
+└── README.md # Project guide
+
 
 ---
 
-> Developed as part of the ENCIDE ML Challenge by [Samuel M Dileep]
+>🔬 Developed as part of the ENCIDE ML Challenge by [Samuel M Dileep]
 
