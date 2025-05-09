@@ -29,8 +29,26 @@ How to Run
 4. A `submission.csv` file will be created with predictions in the required format:
 
 filename,prediction
-cat.jpg,cat
-dog.JPG,dog
+1.jpg => dog
+10.jpg => cat
+11.jpg => cat
+12.jpg => dog
+13.jpg => dog
+14.jpg => cat
+15.jpg => dog
+16.jpg => cat
+17.jpg => dog
+18.jpg => cat
+19.jpg => dog
+2.jpg => dog
+20.jpg => dog
+3.jpg => cat
+4.jpg => dog
+5.jpg => cat
+6.jpg => dog
+7.jpg => cat
+8.jpg => cat
+9.jpg => cat
 
    
 ## 📊 Model Performance
@@ -39,12 +57,15 @@ The model was trained with early stopping and image augmentation.
 
 **Final Metrics:**
 
-- ✅ **Training Accuracy**: 86.26%
-- ✅ **Validation Accuracy**: 72.40%
+-✅ Final Training Accuracy: 88.86%
+
+-✅Final Validation Accuracy: 79.17%
 
 📈 Accuracy Curves:
 
-![Accuracy Graph](https://github.com/user-attachments/assets/b8a0ee50-d65a-4d9a-abdb-c06ba5d9f028)
+![image](https://github.com/user-attachments/assets/f41c21a2-3a5a-44c0-aa4d-ad768b0af140)
+
+
 
 ---
 
